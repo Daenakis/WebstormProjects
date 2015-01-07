@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Welcome,traveler</title>
+    <style>
+h1             {color: purple;
+                text-align: center;}
+h2             {color: darkred;
+                text-align: center}
+h3             {color: #2015ff;
+                text-align: center;}
+.headingMenu   {display:table;
+                width:94%;
+                text-align:center;
+                height: 30px}
+.headingMenu li{display:table-cell;
+                border: 1px solid yellowgreen;
+                background-color: chocolate}
+.sitetitle     {background-color: aquamarine;
+                border: double 2px black;
+                height: 600px;
+                width: 600px;
+                margin-left: 350px}
+body           {background-color: #96ffac;}
+.sitetitle p   {text-align: center;  }
+.poljavvoda    {left: 50px;
+                top: 400px;
+                margin-left: 50px;
+
+}
+
+
+    </style>
+</head>
+<body>
+<ul class="headingMenu">
+    <li>Home page</li>
+    <li>Countries</li>
+    <li>Prices</li>
+    <li>Contacts</li>
+</ul>
+<h1><b><i>Travelers court</i></b></h1>
+<h3><i>site about travel</i></h3>
+<div class="sitetitle">
+<h2><u>Registration</u></h2>
+<p>Please input some information about you in this registration page</p>
+<div class="poljavvoda">
+    <form name="test" method="post" action="input1.php">
+        <p><b>Your name:</b><br>
+            <input type="text" size="40">
+        </p>
+        <p><b>Your age</b><br>
+            <input type="text" value="" placeholder="12?" name="names" />
+        </p>
+        <p><b>Your e-mail</b><br>
+            <input type="text" value="" placeholder="@mail" name="names" />
+        </p>
+        <p><b>Have any hobby?</b><br>
+            <input type="text" value="" placeholder="coding?" name="names" />
+        </p>
+        <p><b>How many times do you travel:</b><Br>
+            <input type="radio" name="browser" > 0-2<Br>
+            <input type="radio" name="browser" > 3-5<Br>
+            <input type="radio" name="browser" > 5-10<Br>
+        </p>
+        <p>Why you choose us?<Br>
+            <textarea name="comment" cols="40"></textarea></p>
+        <p><input type="submit" value="Отправить"></p>
+
+    </form>
+
+
+</div>
+</div>
+</body>
+</html>
